@@ -110,13 +110,38 @@ body {
     justify-content: center;
 }
 
-.player img:hover {
-    background-color: #C4C4C4;
+img {
     border-radius: 10px;
     border: 1px;
-
 }
 
 .refresh-bt:hover {
     width: 100px;
+}
+
+.result-vs {
+    align-self: center;
+}
+
+.rectangle {
+    width: 271.11px;
+    height: 166.93px;
+    background-color: #4C9654;
+    display: flex;
+    border-radius: 10px;
+    border: 1px;
+    transform: rotate(-20deg);
+    margin: 30px;
+}
+
+.result-text {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    Font-style: Bold;
+    letter-spacing: 0.1em;
+    align-self: center;
+    margin: auto;
 }
